@@ -12,7 +12,6 @@ package Arrays;
 // Result: 2
 // Explanation: In the given array, number 2 is missing. So, 2 is the answer.
 
-import java.util.Arrays;
 
 public class MissingNumber {
     int missingNumber(int arr[], int n) {
