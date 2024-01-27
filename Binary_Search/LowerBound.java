@@ -2,7 +2,7 @@ package Binary_Search;
 
 public class LowerBound {
 
-    int binarySearch(int arr[], int target) {
+    int lowerBound(int arr[], int target) {
         int low = 0;
         int high = arr.length - 1;
         int index = arr.length;
@@ -19,10 +19,6 @@ public class LowerBound {
         }
 
         return index;
-    }
-
-    int lowerBound(int arr[], int target) {
-        return binarySearch(arr, target);
     }
 
     public static void main(String args[]) {
