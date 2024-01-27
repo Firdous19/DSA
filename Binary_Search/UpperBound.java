@@ -1,5 +1,15 @@
 package Binary_Search;
 
+// Example 1:
+// Input Format: N = 4, arr[] = {1,2,2,3}, x = 2
+// Result: 3
+// Explanation: Index 3 is the smallest index such that arr[3] > x.
+
+// Example 2:
+// Input Format: N = 6, arr[] = {3,5,8,9,15,19}, x = 9
+// Result: 4
+// Explanation: Index 4 is the smallest index such that arr[4] > x.
+
 public class UpperBound {
 
     int upperBound(int arr[], int target) {
